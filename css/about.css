@@ -1,0 +1,16 @@
+aside{
+  float:right;
+}
+article p{
+  font-size: 30px;
+  color:white;
+}
+h1{
+  text-align: center;
+  border: 5px solid black;
+  padding:20px;
+  font-size: 30px;
+}
+body{
+  background-color: teal;
+}

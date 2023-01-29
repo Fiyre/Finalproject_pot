@@ -1,0 +1,55 @@
+<!doctype html>
+  <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/sign.css"/>
+    <title>POT:.:./home/signup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    span{
+      color:red;
+      font-size: 15px;
+    }
+</style>
+  </head>
+  <body>
+    <form method="post" name="pd3" onsubmit="return validatepd3();">
+    <label for="fn">First Name:</label>
+    <input type="text" name="fn" id="fn" onblur="return validatefn();"/><span id="fnErr"></span><br/>
+    <label for="mn">Middle Name:</label>
+    <input type="text" name="mn" id="MN"/>
+    <label for="ln">Last Name:</label>
+    <input type="text" name="ln" id="ln"/><span id="lnErr"></span><br/>
+    <label for="cae">Create an email</label><br/>
+    <input type="email" name="cae" value="" id="cae"/><span id="caeErr"></span><br/>
+    <label for="cp">Create password</label><br/>
+    <input type="password" name="cp" value="" id="cp" /><span id="cpErr"></span><br/>
+    <label for="cop">Confirm password</label><br/>
+    <input type="password" name="cop" value="" id="cop" /><span id="copErr"></span><br/>
+    <h2>Sex:</h2>
+    <label for="mal">Male</label>
+    <input type="radio" name="sex" id="mal" /><br/><span id="sexErr"></span>
+    <label for="sexf">Female</label>
+    <input type="radio" name="sex" id="sexf" /><br/>
+    <label for="Inter">Intersex</label>
+    <input type="radio" name="sex" id="Inter" /><br/>
+    <label for="dob">Date of birth</label>
+    <input type="date" name="dob" id="dob"/><br/><span id="dobErr"></span>
+    <h1>Register your pet/pets</h1>
+    <label for="pfn">First Name:</label>
+    <input type="text" name="pfn" id="pfn"/><span id="pfnErr"></span><br/>
+    <label for="pln">Last Name:</label>
+    <input type="text" name="pln" id="LN"/> <span id="plnErr"></span>
+    <h2>Gender:</h2>
+    <label for="mal">Male</label>
+    <input type="radio" name="pex" id="mal"/><br/>
+    <label for="sexf">Female</label>
+    <input type="radio" name="pexErr" id="sexf" /><br/>
+    <label for="Inter">Intersex</label>
+    <input type="radio" name="pex" id="Inter" /><br/>
+    <label for="dob">Date of birth</label>
+    <input type="date" name="pdob" id="dob" /><br/>
+    <input type="submit" name="sub" value="Signup" style="border-radius:5px;"/>
+  </form>
+  <script src="../script/potval.js"></script>
+  </body>
+  </html>

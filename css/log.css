@@ -1,0 +1,22 @@
+input{
+font-size: 30px;
+border-radius: 8px;
+border-color: black;
+}
+
+label{
+  font-size: 30px;
+
+}
+form{
+  margin: auto;
+  border: 2px groove grey;
+  width:372px;
+  border-radius: 4px;
+  text-align: center;
+  padding:20px;
+  background-color: white;
+}
+body{
+  background-image: linear-gradient(to right, #8c8084, white);
+}

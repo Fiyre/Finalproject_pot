@@ -1,0 +1,18 @@
+input{
+font-size: 30px;
+}
+
+label{
+  font-size: 30px;
+
+}
+form{
+  margin: auto;
+  width:372px;
+  text-align: center;
+  padding:30px;
+  background-color: white;
+}
+body{
+  background-image: linear-gradient(to right, #8c8084, white);
+}

@@ -1,0 +1,53 @@
+header{
+font-size: 40px;
+position: fixed;
+top:0;
+right:0;
+left:0;
+height:150px;
+background-color: teal;
+text-align: center;
+}
+section{
+position:relative;
+top:92px;
+}
+nav{
+background-color: #33d5e5;
+padding:10px;
+position: fixed;
+left:0;
+right:0;
+}
+nav a{
+  text-decoration: none;
+  color:black;
+  margin:50px;
+  font-size: 20px;
+}
+nav a:hover{
+  text-decoration:underline;
+  text-decoration-color: orange;
+}
+body{
+  background-color:#18A7B5;
+  background-image: url(https://media.istockphoto.com/id/876583920/photo/colorful-cotton-dog-toy-and-pink-ball-on-a-white-background.jpg?s=612x612&w=0&k=20&c=7qJqNHfa-1-ain4VkljVBhmW6KSlZatQjhuhCA_VfYU=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+article, aside{
+  position:relative;
+  top:97px;
+}
+article p{
+  font-size: 50px;
+}
+article p a{
+  text-decoration: none;
+  color:white;
+  margin:50px;
+padding:10px;
+background-color: green;
+border: 2px 2px groove black;
+float:left;
+}
